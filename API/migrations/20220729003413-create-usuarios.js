@@ -11,14 +11,17 @@ module.exports = {
       nome: {
         type: Sequelize.STRING
       },
-      ativo: {
-        type: Sequelize.BOOLEAN
+      password: {
+        type: Sequelize.STRING
       },
       email: {
         type: Sequelize.STRING
       },
-      role: {
-        type: Sequelize.STRING
+      cpf: {
+        type: Sequelize.INTEGER
+      },
+      telefone: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,

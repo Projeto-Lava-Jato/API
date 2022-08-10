@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "root",
-    "database": "lava_jato",
+    "password": null,
+    "database": "lavajato",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "root",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
@@ -19,5 +19,6 @@
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
-  }
+  },
+  "urlRootNode": "http://192.168.1.109:19000"
 }
